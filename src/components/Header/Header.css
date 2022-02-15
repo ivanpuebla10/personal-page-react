@@ -16,3 +16,22 @@
 .header div span{
     margin: 1em;
 }
+
+
+p a {
+    color:rgb(44, 66, 66);
+    font-weight: 700;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .header a:hover {
+      background-color: rgb(123, 139, 139);
+      height: 100%;
+      width: 100%;
+  }
+  

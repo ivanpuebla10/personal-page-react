@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <div className="header">
       <span>IVAN PUEBLA</span>
-      <span>Home</span>
-      <span>About</span>
+      <span><a href="">Home</a></span>
+      <span><a href="">About</a></span>
     </div>
   );
 };
