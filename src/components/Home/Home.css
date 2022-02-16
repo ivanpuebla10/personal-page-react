@@ -2,22 +2,18 @@
 
 
 .home {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; */
     padding: 1em;
     font-family: 'Playfair Display', serif;
     text-align: justify;
-    font-size: 18px;
+    font-size: 18px;    
+    background-color: rgb(187, 186, 186);
+    border-radius: 10px;
+    margin: 5px;
 }
 
 h1 {
     text-align: center;
 }
-
-
-
-
 
 li {
     margin:5px;

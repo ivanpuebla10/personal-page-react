@@ -1,21 +1,30 @@
 import './App.css';
 import React from 'react'
 import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import Profile from './components/Profile/Profile';
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Conjunto from './components/Conjunto/Conjunto';
 
 
 function App() {
   return (
+    
     <div className="App">
+    <Router>  
      <Header/> 
      <div className="container">
-     <Profile />
-     <Home/>
+     
+     <Routes>
+        <Route path="/" element={<Conjunto />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+   
      </div>
      <Footer/>
+     </Router>
     </div>
+
   );
 }
 

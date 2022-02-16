@@ -23,7 +23,7 @@ const Home = () => {
           <li>React</li>
         </ul>
         <p>
-          Click <a href="https://github.com/ivanpuebla10">here</a> to access my
+          Click here to access my
           GitHub's profile, where you can find all my project's repositories.
         </p>
     </div>
