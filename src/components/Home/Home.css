@@ -2,9 +2,9 @@
 
 
 .home {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; */
     padding: 1em;
     font-family: 'Playfair Display', serif;
     text-align: justify;
@@ -15,11 +15,7 @@ h1 {
     text-align: center;
 }
 
-img {
-    width: 60px;
-    height: 60px;
-    margin:5px;
-}
+
 
 
 

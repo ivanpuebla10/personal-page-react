@@ -1,7 +1,6 @@
 .header{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: raw;
     align-items: center;
     justify-content: space-around;
     padding: 1em;
@@ -10,13 +9,13 @@
     font-size: 20px;
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    width: 100%;
 
+}
 
 .header div span{
     margin: 1em;
 }
-
 
 p a {
     color:rgb(44, 66, 66);
@@ -35,3 +34,21 @@ p a {
       width: 100%;
   }
   
+  .menu {
+      display:none
+  }
+
+  
+@media only screen and (max-width: 500px){
+    .header a {
+        color: red;
+      }
+      .menu {
+        display:block;
+    }
+
+    .header a {
+        display: none;
+    }
+    
+    }
